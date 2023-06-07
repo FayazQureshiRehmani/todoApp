@@ -9,8 +9,8 @@ function App() {
   //default set of arrays
   const [theTodos, setTheTodos] = useState([
     { id: 1, title: "Learn reactjs" },
-    { id: 2, title: "Know about what is life" },
-    { id: 3, title: "What is the new thing to do" },
+    { id: 2, title: "Learn Mern" },
+    { id: 3, title: "Learn Git" },
   ]);
 
   useEffect( () => {
